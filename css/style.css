@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'latto';
+    src: url(/fonts/roboto-bold.woff) format("woff"),
+        url(/fonts/roboto-bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latto';
+    src: url(/fonts/lato-black.woff) format("woff"),
+        url(/fonts/lato-black.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latto';
+    src: url(/fonts/lato-italic.woff) format("woff"),
+        url(/fonts/lato-bold.woff2) format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+.body {
+    font-family: 'latto';
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-weight: 900;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: #b50dfd;
+    border-color: #b50dfd;
+}
+
+.btn-primary {
+    background-color: #fd0dc5;
+    border-color: #fd0dc5;
+}
+
+.border {
+    border: 1px solid;
+    min-height: 60px;
+}
+
+.size-50 {
+    font-size: 50px;
+}
+
+.w-100-mobile {
+    width: 100% !important;
+}
+
+@media (max-width:400px) {
+    .w-100-mobile {
+        width: 100% !important;
+        height: 150px !important;
+    }
+}
